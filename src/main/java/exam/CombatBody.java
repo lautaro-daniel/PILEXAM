@@ -1,6 +1,9 @@
 package exam;
 
-public abstract class CombatBody extends Robot {
+public abstract class CombatBody {
+
+    public CombatBody() {
+    }
 
     public String fight(){
         return "Body fighting";
@@ -11,5 +14,9 @@ public abstract class CombatBody extends Robot {
     }
 
     abstract String actions();
+
+     String change(){
+        return "change body to Combat body";
+    }
 
 }
